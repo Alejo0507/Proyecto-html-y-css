@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color: #333333;
+    
+}
+
+body {
+    height: 850px;
+    background-image: 
+    radial-gradient(circle at top left, rgba(242, 201, 76,0.5) 0%, transparent 50%),
+    radial-gradient(circle at top right, rgba(229, 229, 1,0.25)
+    0%, transparent 50%),
+    radial-gradient(circle at bottom right, rgba(138, 178, 220,0.5)
+    0%, transparent 50%),
+    radial-gradient(circle at bottom left, rgba(104, 95, 212,0.25)
+    0%, transparent 50%);
+
+background-repeat: no-repeat;
+}
+.extras{
+    margin-top: 570px;
+    justify-content:center ;
+    display: flex;
+    height: 8rem;
+    width: 55%;
+    margin-left: 50px;
+    position: absolute;
+}
+.item{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100px;
+    position: relative;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid white;
+}
+.container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    
+}
+.icon{
+    height: 30px;
+    width: 23%;
+    margin-bottom: 15px;
+}
+.sub{
+    color: #333333;
+    font-size: 0.7rem;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items:flex-start;
+    justify-content: center;
+
+}
+.img{
+    width: 50%;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star-1{
+    margin-top: 450px;
+    margin-left: 350px;
+    position: absolute;
+}
+.star-2{
+    margin-bottom: 430px;
+    margin-right: 340px;
+    position: absolute;
+}
+
+.borde{
+position: relative;
+height: 35.5rem;
+}
+.mujer{
+    position: absolute;
+    height: 30rem;
+}
+.title{
+    font-size: 3.5rem;
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.sub-title{
+    font-size: 1.5rem;
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+button{
+    margin-left: 60px;
+    border: none;
+    color: white;
+    padding: 15px 30px  15px 30px;
+    border-radius: 50px;
+    background-color: #333333;
+}
+button:hover{
+    background-color: #727272;
+    color: #333333;
+}
+@media(max-width:780px){
+    .container{
+        flex-direction: column;
+        height: 1000px;
+        align-items: center;
+        justify-content: center;
+    }
+    .extras{
+        height: 800px;
+        width: 100%;
+        margin-top: 1050px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+    .item{
+        border: 1px solid #8d8d8d;
+        height: 15rem;
+        width: 60%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .icon{
+        margin-bottom: 20px;
+        height: 40px;
+        width: 40px;
+    }
+    .sub{
+        font-size: x-large;
+    }
+    .mujer{
+        height: 20rem;
+    }
+    .borde{
+        height: 25rem;
+    }
+    .star-1{
+        margin-top: 320px;
+        margin-left: 220px;
+        height: 6rem;
+    }
+    .star-2{
+        height: 5rem;
+        margin-bottom: 300px;
+        margin-right: 250px;
+    }
+    body {
+        height: 2000px;
+        background-image: 
+        radial-gradient(circle at top left, rgba(242, 201, 76,0.6) 5%, transparent 20%),
+        radial-gradient(circle at top right, rgba(229, 229, 1,0.5) 5%, transparent 20%),
+        radial-gradient(circle at bottom right, rgba(138, 178, 220,0.6) 5%, transparent 30%),
+        radial-gradient(circle at bottom left, rgba(104, 95, 212,0.25) 5%, transparent 30%);
+        background-repeat: no-repeat;
+    }
+    .img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    .information{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .sub-title{
+        margin-left: 30px;
+        margin-right: 20px;
+        font-size:1.2rem ;
+        margin-bottom: 2.5rem;
+    }
+    .title{
+        margin-left: 30px;
+        font-size: 2.5rem;
+    }
+    button{
+        margin-left: 0;
+    }
+}
